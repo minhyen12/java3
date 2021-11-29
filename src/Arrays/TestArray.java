@@ -11,10 +11,11 @@ public class TestArray {
 		for (String car : cars ) {
 			System.out.println(car);
 		}
-		int arr[] = {8, 3,6, 9};
+		int arr[] = {8, 3, 6, 9};
 		for (int e = 0; e < arr.length; e++) {
 			System.out.print(arr[e] + " ");
 		}
+		System.out.println();
 		System.out.println("Mang da chieu");
 		int a[][] = {{1,3,4}, {3,4,6}};
 		int b[][] = {{1,3,4}, {2,5,4}};
