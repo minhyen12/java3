@@ -46,15 +46,23 @@ public class Students {
 			a += 3;
 		} while(a < 10);
 		System.out.println("Su dung break");
-		for (int b =0; b < 10; b++) {
+		// vòng for thực hiện in ra các giá trịc của b. Khi gặp break thì thoát vòng for
+		// mặc dù vòng for chưa chạy đến điều kiện dừng.
+		for (int b = 0; b < 10; b++) {
 			System.out.println(b);
-			if( b ==5 ) break;
+			if( b ==5 ) {
+				break;
+			}
 		}
 		
 		System.out.println("su dung continue");
+		// vòng for thực hiện in ra các giá trị của e. Khi gặp continue thì bỏ qua giá trị đó và
+		// nhảy đến giá trị tiếp theo. Thực hiện cho đến khi gặp điều kiện dừng.
 		for (int e = 1; e <= 5; e++) {
-			if (e == 3) continue;
-				System.out.println(e);
+			if (e == 3) {
+				continue;
+			}
+			System.out.println(e);
 		}  
 	}
 
